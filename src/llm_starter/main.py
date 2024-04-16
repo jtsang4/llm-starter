@@ -1,9 +1,6 @@
 import os
-from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
 from langfuse.callback import CallbackHandler
-
-load_dotenv(verbose=True, override=True)
 
 llm = ChatOpenAI(model="claude-3-haiku")
 

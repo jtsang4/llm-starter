@@ -17,10 +17,9 @@ build-backend = "pdm.backend"
 distribution = true
 
 [tool.pdm.scripts]
+_.env_file = ".env"
 start.cmd = "pdm run src/llm_starter/main.py"
-start.env_file = ".env"
 test.cmd = "pytest"
-test.env_file = ".env"
 
 [tool.pdm.dev-dependencies]
 dev = ["pytest>=8.1.1", "python-dotenv>=1.0.1"]

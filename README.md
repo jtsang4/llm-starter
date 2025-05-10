@@ -2,10 +2,10 @@
 
 ## Prerequisite
 
-* Install [PDM](https://pdm-project.org/) package manager.
+- Install [UV](https://docs.astral.sh/uv/) as environment and package manager.
 
 ## Start
 
-```py
-pdm install
+```bash
+uv sync
 ```
